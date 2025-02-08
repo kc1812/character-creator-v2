@@ -30,6 +30,7 @@ function App() {
 
   return (
     <main className={styles.characterEditor}>
+      <div class={styles.darkGreenBottom}></div>
       <MaxWidthWrapper className={styles.maxWidthWrapper}>
         <header className={styles.header}>
           <h1 className={styles.title}>Create your Character</h1>
@@ -79,7 +80,7 @@ function App() {
       </MaxWidthWrapper>
 
       <div className={styles.characterWrapper}>
-        <Character
+        <Character className={styles.character}
           body={body}
           head={head}
           face={face}
@@ -88,6 +89,7 @@ function App() {
           clothesColor={clothesColor}
         />
       </div>
+      
     </main>
   );
 }
