@@ -30,10 +30,8 @@
   position: fixed;
   top: 128px;
   right: 5%;
-  height: 500px;
-}
-.character{
-  height: 100%;
+  min-height: 500px;
+  bottom: 5%;
 }
 
 .controlColumn {
